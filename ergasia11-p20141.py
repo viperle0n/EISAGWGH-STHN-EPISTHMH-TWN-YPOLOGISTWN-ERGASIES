@@ -152,12 +152,12 @@ for i in range (mhkosf3):
     print ("Fores pou vrethke to",f3[i]," =",fores)
     
     
-    #ΥΠΟΛΟΓΙΣΜΟΣ ΠΙΘΑΝΟΤΗΤΑΣ ΕΜΦΑΝΙΣΗΣ ΔΕΚΑΔΙΚΟΥ ΨΗΦΙΟΥ
+    #ΥΠΟΛΟΓΙΣΜΟΣ ΠΙΘΑΝΟΤΗΤΑΣ ΕΜΦΑΝΙΣΗΣ ΔΕΚΑΕΞΑΔΙΚΟΥ ΨΗΦΙΟΥ
     pithanothta = fores/mhkosf2#(ΥΠΟΘΕΤΩ ΟΤΙ ΔΕΝ ΠΡΟΚΕΙΤΑΙ ΠΟΤΕ ΝΑ ΕΙΝΑΙ 0 ΤΟ ΜΗΚΟΣ ΤΗΣ 'f2')
     print("Pithanothta emfanishs tou",f3[i]," =",pithanothta)
     
     
-    #ΥΠΟΛΟΓΙΣΜΟΣ ΛΟΓΑΡΙΘΜΟΥ ΤΗΣ ΠΙΘΑΝΟΤΗΤΑΣ ΕΜΦΑΝΙΣΗΣ ΤΟΥ ΔΕΚΑΔΙΚΟΥ ΨΗΦΙΟΥ
+    #ΥΠΟΛΟΓΙΣΜΟΣ ΛΟΓΑΡΙΘΜΟΥ ΤΗΣ ΠΙΘΑΝΟΤΗΤΑΣ ΕΜΦΑΝΙΣΗΣ ΤΟΥ ΔΕΚΑΕΞΑΔΙΚΟΥ ΨΗΦΙΟΥ
     x1 = math.log(pithanothta,16)#ΒΑΣΗ ΛΟΓΑΡΙΘΜΟΥ 16 ΔΙΟΤΙ ΒΡΙΣΚΟΜΑΣΤΕ ΣΤΟ ΔΕΚΑΕΞΑΔΙΚΟ
     print("Logarithmos ths pithanothtas emfanishs tou",f3[i]," =",x1)
     
